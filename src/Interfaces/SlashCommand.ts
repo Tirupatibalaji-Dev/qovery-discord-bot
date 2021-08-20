@@ -9,6 +9,7 @@ export interface SlashCommand {
     name: string;
     description: string;
     default: boolean,
+    defaultPermission?: boolean,
     options?: {
         name: string,
         description: string,
@@ -17,16 +18,6 @@ export interface SlashCommand {
         choices?: {
             name: string,
             value: string,
-        }[],
-        options?: {
-            name: string,
-            description: string,
-            type: number,
-            required: boolean,
-            choices?: {
-                name: string,
-                value: string,
-            }[]
         }[]
     }[]
     run: Run
