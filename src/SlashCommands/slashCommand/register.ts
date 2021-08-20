@@ -7,7 +7,7 @@ export const slashCommand: SlashCommand = {
 
     run: async (client:any, interaction, args) => {
         interaction.followUp("registering slash commands")
-        await client.commands.set(client.slashCommands)
+        await client.applications.commands.set(client.slashCommands)
         interaction.editReply("registred")
     }
 }
