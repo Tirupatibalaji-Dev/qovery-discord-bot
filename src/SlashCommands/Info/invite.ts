@@ -1,6 +1,4 @@
-import { MessageActionRow, MessageEmbed, MessageSelectMenu } from "discord.js";
-import { SlashCommand, Doc } from "../../Interfaces";
-import SelectMenu from "../../Utils/SelectMenu";
+import { SlashCommand } from "../../Interfaces";
 export const slashCommand: SlashCommand = {
     name: 'invite',
     description: "Invite Qovery Official Docs Bot",
