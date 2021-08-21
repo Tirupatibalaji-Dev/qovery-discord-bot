@@ -34,7 +34,7 @@
 <a href="">
     <img src="https://img.shields.io/discord/872831785749315584?label=The%20DTS%20Development&style=for-the-badge" alt="Discord"></a>
 <a href="">
-    <img src="https://img.shields.io/discord/872831785749315584?label=Qovery&style=for-the-badge" alt="Discord"></a>
+    <img src="https://img.shields.io/discord/688766934917185556?label=Qovery&style=for-the-badge" alt="Discord"></a>
 <p/>
 <!-- TABLE OF CONTENTS -->
 <details open="open">
