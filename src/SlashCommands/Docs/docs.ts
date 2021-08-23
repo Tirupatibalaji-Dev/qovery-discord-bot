@@ -34,9 +34,9 @@ export const slashCommand: SlashCommand = {
                     .setFooter(interaction.user.username, interaction.user.avatarURL())
 
                 if (user) {
-                    interaction.reply({ content: "Docs for <@" + user.id + ">", embeds: [embed], ephemeral: false })
+                    interaction.editReply({ content: "Docs for <@" + user.id + ">", embeds: [embed], ephemeral: false })
                 } else {
-                    interaction.reply({ embeds: [embed], ephemeral: true })
+                    interaction.editReply({ embeds: [embed], ephemeral: true })
                 }
                 isDoc = true
             }
